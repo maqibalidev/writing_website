@@ -1,0 +1,115 @@
+.about-top-sec-container {
+
+    background-color: #583BEC;
+}
+
+.about-top-sec {
+    height: 152px;
+    background-color: #f7f8fd;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    p {
+
+        font-family: "Open Sans";
+        font-size: 24px;
+        font-weight: 600;
+        text-align: left;
+        color: #000;
+    }
+
+    span {
+        color: #583BEC;
+    }
+
+}
+
+/* /////////////////////////  ABOUT SECTION MIDDLE /////////////////////// */
+
+.middle-sec-container {
+    padding: 60px 100px;
+
+    .headings {
+
+        .heading {
+            font-family: "Inter", sans-serif;
+            font-size: 56px;
+            font-weight: 600;
+
+            line-height: 1.31;
+            text-align: center;
+            color: #000;
+
+
+            span {
+                color: #583BEC;
+            }
+
+            .desc {
+                font-size: 22px;
+                line-height: 1.45;
+                text-align: center;
+                color: #585858;
+
+            }
+        }
+
+
+
+    }
+
+}
+
+.middle-sec-item-container {
+
+    margin-top: 60px;
+    gap: 40px;
+    justify-content: center;
+
+
+}
+
+/* /////////////////////////  ABOUT SECTION  ITEM /////////////////////// */
+.item-container {
+
+    flex: 1;
+    min-width: 28%;
+    min-height: 350px;
+    padding: 40px;
+    transition: .5s all ease;
+    border-radius: 30px;
+    border: 1px solid #BBBBBB;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 28px 26.2px 3px rgba(139, 139, 139, 0.1);
+        border: solid 1px #583bec;
+    }
+
+
+    .item-top {
+        padding: 20px;
+        border-radius: 100px;
+        width: 150px;
+        height: 80px;
+        border: 1px solid #583BEC
+    }
+
+    .item-heading {
+        margin-top: 30px;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+
+        line-height: 1.2;
+        text-align: center;
+        color: #583bec;
+    }
+
+    .item-desc {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 16px;
+        color: #575757;
+    }
+}

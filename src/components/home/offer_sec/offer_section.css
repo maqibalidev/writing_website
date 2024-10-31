@@ -1,0 +1,65 @@
+.offer-sec {
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #583BEC;
+
+    .left {
+        min-width: 60%;
+    }
+
+    .heading {
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 1.4;
+        color: #fff;
+        font-family: "Inter", sans-serif;
+    }
+
+    .desc {
+        line-height: 1.2;
+        font-size: 20px;
+        color: #fff;
+        font-family: "Inter", sans-serif;
+    }
+
+
+    .right {
+        gap: 10px;
+
+        button {
+            display: flex;
+
+            padding: 14px 40px;
+
+            font-size: 18px;
+            line-height: 18px;
+            border-radius: 100px;
+            border: none;
+            gap: 10px;
+            font-weight: 700;
+            cursor: pointer;
+
+
+        }
+
+        .btn-left {
+            color: #583BEC;
+            border: solid 2px #fff;
+            background-color: white;
+        }
+
+        .btn-right {
+            border: solid 2px #fff;
+            background: transparent;
+            color: white;
+
+            svg {
+                fill: white;
+            }
+        }
+
+
+    }
+
+}

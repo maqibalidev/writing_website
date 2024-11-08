@@ -4,7 +4,7 @@
 }
 
 .about-top-sec {
-    height: 152px;
+   padding: 50px 0px;
     background-color: #f7f8fd;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
@@ -12,7 +12,7 @@
     p {
 
         font-family: "Open Sans";
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         text-align: left;
         color: #000;
@@ -27,13 +27,15 @@
 /* /////////////////////////  ABOUT SECTION MIDDLE /////////////////////// */
 
 .middle-sec-container {
-    padding: 60px 100px;
+    width: 95%;
+    margin: auto;
+    padding: 50px;
 
     .headings {
 
         .heading {
             font-family: "Inter", sans-serif;
-            font-size: 56px;
+            font-size: 50px;
             font-weight: 600;
 
             line-height: 1.31;
@@ -45,16 +47,17 @@
                 color: #583BEC;
             }
 
-            .desc {
-                font-size: 22px;
-                line-height: 1.45;
-                text-align: center;
-                color: #585858;
-
-            }
+            
         }
 
+        .desc {
+            margin-top: 8px;
+            font-size: 20px;
+            line-height: 1.45;
+            text-align: center;
+            color: #3b3b3bcb;
 
+        }
 
     }
 
@@ -62,8 +65,8 @@
 
 .middle-sec-item-container {
 
-    margin-top: 60px;
-    gap: 40px;
+    margin-top: 50px;
+    gap: 30px;
     justify-content: center;
 
 
@@ -74,8 +77,8 @@
 
     flex: 1;
     min-width: 28%;
-    min-height: 350px;
-    padding: 40px;
+    /* min-height: 350px; */
+    padding: 30px 25px;
     transition: .5s all ease;
     border-radius: 30px;
     border: 1px solid #BBBBBB;
@@ -88,11 +91,17 @@
 
 
     .item-top {
-        padding: 20px;
+        padding: 10px 0px;
         border-radius: 100px;
-        width: 150px;
-        height: 80px;
-        border: 1px solid #583BEC
+        width: 46%;
+       
+        border: 1px solid #583BEC;
+
+
+        svg {
+            height: 40px;
+            width: 40px;
+        }
     }
 
     .item-heading {
@@ -107,6 +116,10 @@
     }
 
     .item-desc {
+        /* display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden; */
         margin-top: 20px;
         text-align: center;
         font-size: 16px;

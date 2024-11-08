@@ -26,13 +26,13 @@ const Header = () => {
 
     return (
         <>
-             <div className= "header-container d-flex justify-content-center ">
-                <div className="container custom-header-container custom-container">
+             <div className= "header-container  d-flex justify-content-center ">
+                <div className="container g-0  custom-header-container custom-container">
                     <div className=" header d-flex justify-content-between align-items-center">
                      {/* LOGO  */}
                         <div className="left">
                             <a href="#" className="logo">
-                                <img height="76px" width="136px" src={logo} alt="logo" />
+                                <img height="60px" src={logo} alt="logo" />
                             </a>
                         </div>
                      {/* HEADER LINKS */}
@@ -102,8 +102,8 @@ const Header = () => {
                             <button className=" header-btn-login d-flex align-items-center justify-content-center">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="20"
-                                    height="20"
+                                    width="18"
+                                    height="18"
                                     viewBox="0 0 18 20"
                                     fill="none"
                                 >
@@ -124,8 +124,8 @@ const Header = () => {
                             <button className=" header-btn-order  d-flex align-items-center justify-content-center">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="20"
-                                    height="20"
+                                    width="18"
+                                    height="18"
                                     viewBox="0 0 23 21"
                                     fill="none"
                                 >
@@ -145,8 +145,8 @@ const Header = () => {
                                     xmlns="http://www.w3.org/2000/svg"
                                     x="0px"
                                     y="0px"
-                                    width="20"
-                                    height="20"
+                                    width="18"
+                                    height="18"
                                     viewBox="0 0 50 50"
                                 >
                                     <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>

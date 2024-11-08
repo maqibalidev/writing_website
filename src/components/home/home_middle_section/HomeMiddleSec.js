@@ -11,8 +11,8 @@ const HomeMiddleSec = ({serviceSecData}) => {
           <div class="d-flex align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+              width="28"
+              height="28"
               viewBox="0 0 36 36"
               fill="none"
             >
@@ -31,19 +31,20 @@ const HomeMiddleSec = ({serviceSecData}) => {
 
       {/* //////////////// SERVICE MIDDLE SEC  /////////////////// */}
       <div class="d-flex justify-content-center middle-sec-container  flex-column">
-        <div class="headings d-flex flex-column align-items-center">
+       
+   {/* //////////////// SERVICE ITEMS SECTION  /////////////////// */}
+        <div class="d-flex justify-content-center">
+          <div class="custom-container container gx-0 p-0">
+          <div class="headings d-flex flex-column align-items-center">
           <p class="heading">
             What Makes Us the <span>Best Essay Writing</span> Service?
           </p>
-          <p class="desc text-center">
+          <p class="desc text-justify">
             Discrimination is not our thing; we provide academic writing
             services to all paper types, study levels, and subject areas.{" "}
           </p>
         </div>
-   {/* //////////////// SERVICE ITEMS SECTION  /////////////////// */}
-        <div class="d-flex justify-content-center mx-1 mx-sm-0">
-          <div class="custom-container container gx-0 p-0">
-            <div class="middle-sec-item-container justify-content-between d-flex flex-wrap ">
+            <div class="middle-sec-item-container container custom-container gx-0 justify-content-between d-flex flex-wrap ">
               {serviceSecData.map((item, key) => (
                 <SerViceItem
                   key={key}

@@ -9,10 +9,10 @@ const FooterItem = ({ split_green, text, icon }) => {
       {split_green ? (
         <>
           <strong>{splitegreen_text[0]}</strong>
-          {splitegreen_text.slice(1).join(" ")}
+          <span>{splitegreen_text.slice(1).join(" ")}</span>
         </>
       ) : (
-        text
+       <span>{text}</span>
       )}
     </a>
   );

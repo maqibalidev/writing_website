@@ -48,14 +48,14 @@ const BottomSec = ({ footerData, sliderData }) => {
 
   return (
     <>
-      <div className="bottom-sec d-flex justify-content-center mx-1 mx-md-5">
+      <div className="bottom-sec d-flex justify-content-center ">
         <div className="container custom-container px-2 px-sm-0">
           <div className="d-flex justify-content-between flex-column flex-xl-row align-items-center">
             <div className="headings">
               <p className="heading">
                 These professional essay writers will help you
               </p>
-              <p className="desc mt-4">
+              <p className="desc">
                 We have most qualified and experienced writers in our team who
                 have years of experience in academic writing.
               </p>
@@ -69,8 +69,8 @@ const BottomSec = ({ footerData, sliderData }) => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="21"
-                  height="22"
+                  width="18"
+                  height="18"
                   viewBox="0 0 21 22"
                   fill="none"
                 >
@@ -89,8 +89,8 @@ const BottomSec = ({ footerData, sliderData }) => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="21"
-                  height="22"
+                  width="18"
+                  height="18"
                   viewBox="0 0 21 22"
                   fill="none"
                 >
@@ -107,7 +107,7 @@ const BottomSec = ({ footerData, sliderData }) => {
           {/* Swiper Slides */}
           <div className="slider-sec d-flex ">
             <Swiper
-              spaceBetween={20}
+              spaceBetween={18}
               slidesPerView={1}
 
               loop
@@ -120,16 +120,18 @@ const BottomSec = ({ footerData, sliderData }) => {
                 clickable: true,
               }}
               breakpoints={{
-                640: {
+                0:{
                   slidesPerView: 1,
                 },
-                800: {
+               550: {
                   slidesPerView: 2,
+                  spaceBetween:10
                 },
-                1200: {
+                1040: {
                   slidesPerView: 3,
+                  spaceBetween:20
                 },
-                1600: {
+                1400: {
                   slidesPerView: 4,
                 },
               }}
@@ -189,7 +191,7 @@ const BottomSec = ({ footerData, sliderData }) => {
 
                 <button
                   onClick={() =>
-                    $(carouselRef.current).trigger("next.owl.carousel")
+                    $('.owl-crousel').trigger("next.owl.carousel")
                   }
                   className=" btn nav-btn d-flex align-items-center justify-content-center border-0"
                 >

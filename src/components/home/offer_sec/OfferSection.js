@@ -3,8 +3,8 @@ import "./offer_section.css";
 const OfferSection = () => {
   return (
     <>
-      <div class="d-flex offer-sec  justify-content-center  mx-1  mx-md-5">
-        <div class="container custom-container flex-wrap px-2 px-sm-0 d-flex flex-column flex-lg-row  justify-content-center align-items-start align-items-lg-center justify-content-lg-between ">
+      <div class="d-flex offer-sec  justify-content-center">
+        <div class="container custom-container  flex-wrap px-2 px-sm-0 d-flex flex-column flex-lg-row  justify-content-center align-items-start align-items-lg-center justify-content-lg-between ">
           <div class="left">
             <h4 class="heading">
               Exclusive Offer! Save 20% on Your First Order!

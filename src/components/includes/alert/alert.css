@@ -1,28 +1,46 @@
-.alert-container{
+.alert-parent-container{
+    width: 95%;
+    margin: auto;
+    padding: 0px 30px;
+}
+.alert-container {
 
-    .alert{
-        height: 55px;
+    .alert {
+    height: 45px;
         display: flex;
         align-items: center;
         justify-content: center;
-border: none ;
-background-color: white ;
+        border: none;
+        background-color: white;
+
+
+        .alert-close-btn{
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
     }
+
+    button:focus {
+        box-shadow: none !important;
+    }
+
 }
+
 .alert_text {
     user-select: none;
     font-size: 18px;
     font-family: "Open Sans";
     line-height: 2;
     text-align: center;
-   
+
     color: black;
 }
 
 .span-discount {
 
     color: black;
-    font-weight: bold ;
+    font-weight: bold;
     font-family: "Open Sans";
 }
 
@@ -30,7 +48,7 @@ background-color: white ;
     user-select: text;
     flex-grow: 0;
     color: white;
-    padding: 5px 10px;
+    padding: 3px 15px ;
     border-radius: 8px;
     background-color: #583bec;
     font-weight: 600;

@@ -1,6 +1,10 @@
 .offer-sec {
+    max-width: 95%;
+    /* max-width: fit-content; */
     margin-top: 50px;
-    padding: 50px;
+    margin: auto;
+    padding: 38px 50px;
+    /* padding: 50px 80px; */
     border-radius: 30px;
     background-color: #583BEC;
 
@@ -9,7 +13,7 @@
     }
 
     .heading {
-        font-size: 34px;
+        font-size: 30px;
         font-weight: 600;
         line-height: 1.4;
         color: #fff;
@@ -18,7 +22,7 @@
 
     .desc {
         line-height: 1.2;
-        font-size: 20px;
+        font-size: 18px;
         color: #fff;
         font-family: "Inter", sans-serif;
     }
@@ -30,14 +34,14 @@
         button {
             display: flex;
 
-            padding: 14px 40px;
+            padding: 12px 30px;
 
             font-size: 18px;
             line-height: 18px;
             border-radius: 100px;
             border: none;
             gap: 10px;
-            font-weight: 700;
+            font-weight: 600;
             cursor: pointer;
 
 

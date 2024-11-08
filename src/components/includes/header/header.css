@@ -5,7 +5,7 @@
 
 .right-slider-menu-header {
 
-    padding: 10px 0px ;
+    padding: 10px 0px;
     height: 50px;
 }
 
@@ -33,21 +33,19 @@
         li {
 
 
-            padding-bottom: 5px ;
-            margin: 0px ;
+            padding-bottom: 5px;
+            margin: 0px;
             text-align: center;
-            width: 100% ;
+            width: 100%;
             border: none !important;
 
             a {
 
                 color: rgb(255, 255, 255);
-                width: fit-content ;
+                width: fit-content;
                 transition: .2s all ease;
 
-                &:hover {
-                    color: rgb(0, 0, 0);
-                }
+             
             }
 
             .active {
@@ -59,9 +57,26 @@
 }
 
 .header-container {
-
-    background-color: #583bec;
+    max-width: 95%;
+    margin: auto;
+padding: 0px 50px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.199);
+position: relative;
+&::before{
+    content: "";
+
+    position: absolute;
+    top: 0;
+ 
+    bottom: 0;
+    width: 100vw;
+    margin: auto;
+    z-index: -1;
+    background-color: #583BEC;
+
+}
+
+
 }
 
 .header-items {
@@ -73,8 +88,8 @@
     margin: auto;
     background-color: white;
     z-index: 999;
-    border-bottom-left-radius: 20px ;
-    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     overflow-x: hidden;
     border-bottom: 2px solid rgba(0, 0, 0, 0.13);
     max-height: 100vh;
@@ -92,19 +107,19 @@
     ul {
 
         width: 100%;
-        margin: 0px ;
-        padding: 0px ;
+        margin: 0px;
+        padding: 0px;
 
         li {
             display: flex;
-            padding: 0px ;
-            margin: 0px ;
+            padding: 0px;
+            margin: 0px;
 
             a {
                 text-align: center;
                 color: black;
                 padding: 6px;
-                font-size: 14px ;
+                font-size: 14px;
                 background-color: #ffffff;
                 width: 100%;
                 transition: .1s all ease;
@@ -120,7 +135,7 @@
 
 .header {
 
-    min-height: 100px;
+  padding: 5px 0px;
 
     .header-menu-icon {
 
@@ -135,27 +150,29 @@
     }
 
     .right {
-        gap: 10px;
+        gap: 6px;
 
         button {
 
 
             cursor: pointer;
             border-radius: 100px;
-            padding: 10px 20px ;
+            padding: 8px 20px;
 
             border: none;
             font-size: 16px;
-            font-weight: 600;
-            gap: 5px;
-            align-items: center ;
+            font-weight: 700;
+            gap: 2px;
+            align-items: center;
 
 
         }
-button span{
-    padding-bottom: 1px;
- 
-}
+
+        button span {
+            padding-bottom: 1px;
+
+        }
+
         .btn-close {
             height: 25px;
             width: 25px;
@@ -174,7 +191,7 @@ button span{
 
 
         span {
-            color: white ;
+            color: white;
         }
 
 
@@ -189,9 +206,7 @@ button span{
         }
     }
 
-    ul {
-        /* gap: 20px; */
-    }
+   
 
     li {
         margin-right: 20px;
@@ -199,6 +214,7 @@ button span{
         color: white;
 
         padding: 8px 0px;
+   
 
         a {
 
@@ -206,6 +222,11 @@ button span{
             color: white;
             font-weight: 600;
             text-decoration: none;
+            transition: 0.2s all ease;
+
+            /* &:hover {
+                color: black;
+            } */
         }
     }
 
@@ -216,31 +237,43 @@ button span{
 
 
 
-.header-details{
+.header-details {
     position: relative;
 
-.header-summary{
-list-style: none;
-}
+    .header-summary {
+        list-style: none;
+        transition: .2s all ease;
+        font-weight: 600;
 
-    ul{
+        /* &:hover{
+            color: black;
+            
+        } */
+
+    }
+
+    ul {
         position: absolute;
-       padding-left: 0px;
+        padding-left: 0px;
         top: 30px;
         background-color: white;
         min-width: 150px;
-       border-radius: 10px;
-        li{
+        border-radius: 10px;
+
+        li {
             width: 100%;
-       padding: 0;
+            padding: 0;
             display: flex;
-            a{
-        flex-grow: 1;
-            color: black;
-padding:10px 15px;
-            &:hover{
-background-color: rgba(0, 0, 0, 0.055);
+
+            a {
+                flex-grow: 1;
+                color: black;
+                padding: 10px 15px;
+
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.055);
+                }
             }
-        }}
+        }
     }
 }

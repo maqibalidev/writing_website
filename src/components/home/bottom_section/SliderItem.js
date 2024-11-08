@@ -23,10 +23,10 @@ const SliderItem = ({
               {profile_name}
 
               <svg
-              className="ms-1"
+              className="ms-1 mb-2"
                 xmlns="http://www.w3.org/2000/svg"
-                width="19"
-                height="19"
+                width="16"
+                height="16"
                 viewBox="0 0 19 19"
                 fill="green"
               >
@@ -109,7 +109,7 @@ const SliderItem = ({
 
   
         {/*   Cometences section  */}
-        <p className="mt-2 mid-sec-heading">Competences</p>
+        <p className="mt-3 mid-sec-heading">Competences</p>
      
           <ul className="profession-container my-2 d-flex flex-wrap ps-0">
             {competences.map((item, key) => (
@@ -129,7 +129,7 @@ const SliderItem = ({
       
         {/*   Love to write section  */}
         
-          <p className="mt-0 mt-sm-2 mid-sec-heading">Loves to write</p>
+          <p className="mt-0 mt-sm-3 mid-sec-heading">Loves to write</p>
 
           <ul className="lovestowrite-sec d-flex mt-1 flex-wrap ps-0">
             {lovesToWrite.map((item, key) => (

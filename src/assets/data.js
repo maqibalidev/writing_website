@@ -435,7 +435,7 @@ export const footerData = [
   },
   {
     split_green:false,
-    text: "Money-back Guarantee",
+    text: "Money-back Guarantee Money-back Guarantee",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

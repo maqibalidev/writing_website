@@ -17,6 +17,8 @@
 }
 
 .bottom-sec {
+    margin: auto;
+    max-width:95%;
     margin-bottom: 50px;
     padding: 50px;
     border-radius: 40px;
@@ -25,8 +27,9 @@
     background-color: #f7f8fd;
 
     .headings {
+        width: 80%;
         .heading {
-            font-size: 40px;
+            font-size: 48px;
             font-weight: 600;
             font-stretch: normal;
             font-style: normal;
@@ -38,11 +41,12 @@
         }
 
         .desc {
-            font-size: 22px;
+            font-size: 18px;
             font-weight: normal;
             font-stretch: normal;
             font-style: normal;
             line-height: 1.2;
+            margin-top: 20px;
             letter-spacing: normal;
             text-align: left;
             color: #585858;
@@ -103,15 +107,15 @@
             gap: 10px;
 
             .img-contaier {
-                height: 80px;
-                width: 80px;
+                height:70px;
+                width: 70px;
 
                 border-radius: 100px;
 
 
                 img {
-                    height: 80px;
-                    width: 80px;
+                    height: 70px;
+                    width: 70px;
                     object-fit: contain;
                     object-position: center;
                 }
@@ -159,11 +163,11 @@
 
 
     .profession-tag {
-        padding: 8px 15px;
+        padding: 5px 15px;
 
         border-radius: 20px;
         border: solid 1px #d9d9d9;
-        gap: 5px;
+        gap:2px;
 
         background-color: #F7F8FD;
 
@@ -216,7 +220,7 @@
 
 
 
-    gap: 5px;
+    gap:2px;
 
     li:first-child {
         list-style: none;
@@ -224,7 +228,7 @@
 
     li {
         font-family: "Inter", sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         color: black;
         font-weight: 500;
         list-style: none;
@@ -236,6 +240,7 @@
 }
 
 .mid-sec-heading {
+    font-size: 14px;
     color: #575757;
     font-weight: 600;
     font-family: "Open Sans", serif;
@@ -247,13 +252,13 @@
     span {
         color: #727171;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .percent-txt {
         display: block;
         font-family: "Inter", sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         color: #583BEC;
         font-weight: 600;
         line-height: 24px;
@@ -302,10 +307,11 @@
         justify-content: center;
         border: 1px solid #D9D9D9;
         font-size: 20px;
-        height: 100px;
-        font-weight: 500;
-        gap: 8px;
-
+        height: 90px;
+       padding: 30px 10px;
+        
+        gap: 7px;
+line-height: 1.25;
         text-decoration: none;
         color: #000000;
         background-color: white;
@@ -315,8 +321,11 @@
 
         strong {
             color: #4BCD3E;
+            font-weight: 600;
         }
-
+span{
+    max-width: 80%;
+}
 
     }
 
